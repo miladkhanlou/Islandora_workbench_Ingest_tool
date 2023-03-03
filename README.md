@@ -5,7 +5,7 @@ Islandora Workbench is a tool to batch ingests content to Digital Library wbesit
 1) server based website.
 2) Islandora sandbox on local host using Docker containers (demo version of islandora).
 
-## Steps to run workbench on islandora sandbox (demo version of Islandora) **
+## Steps to run workbench on islandora sandbox (demo version of Islandora)
 ### 1) Install Islandora sandbox on local host (demo version of islandora) 
 #### A. clone data from Islandora github page:
 `git clone https://github.com/islandora-devops/isle-dc`
