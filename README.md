@@ -12,19 +12,19 @@ Islandora Workbench is a tool to batch ingests content to Digital Library wbesit
 #### B. install all the files and dependencies:
 `make demo`
 #### C. check the passwords for logging into islandora sand box
-`cd secrets/live/`
-`Nano DRUPAL_DEAFAULT_ACCOUNT_PASSWORD `
+`cd secrets/live/`</br>
+`Nano DRUPAL_DEAFAULT_ACCOUNT_PASSWORD `</br>
 	
 ### 2) Install the islandora Workbench (Migration tool to batch ingest contents using metadata to LDL) 
 #### Clone data:
-`git clone https://github.com/mjordan/islandora_workbench.git`
-`Python3 setup.py install --user`
+`git clone https://github.com/mjordan/islandora_workbench.git` </br>
+`Python3 setup.py install --user` </br>
 		
 ### 3) Configure Islandora Workbench:
 #### change location to the `input director` folder and create a configuration YML file.
-`cd isle-dc/islandora_workbench/input_data`
-`nano LDL_config.yml`
-####  Configuration for batch ingest:
+`cd isle-dc/islandora_workbench/input_data`</br>
+`nano LDL_config.yml`</br>
+####  Workbench YAML fiel configuration for batch ingest:
 		task: create
 		host: "https://islandora.traefik.me"
 		username: admin
