@@ -2,8 +2,8 @@
 Islandora Workbench is a tool to batch ingests content to Digital Library wbesite using metadata. Each metadata contains data of the child members that called collection, and each collection has it own child pages. These relationships exist in the final metadata that initially added to table using post processing tool, called metadata_process.py (https://github.com/Miladkhanlou/Post-Processing-Tool-For-LDL)
 
 **We can run the workbench on:**
-1) server based website.
-2) Islandora sandbox on local host using Docker containers (demo version of islandora).
+1) Server based website by Bulding Drupal and Islandora an all the dependencies manually. (https://github.com/Miladkhanlou/build-instructions)
+2) Islandora sandbox on local host using Docker containers (demo version of islandora). 
 
 ## Steps to run workbench on islandora sandbox (demo version of Islandora)
 ### 1) Install Islandora sandbox on local host (demo version of islandora) 
