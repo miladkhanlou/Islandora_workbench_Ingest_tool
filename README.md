@@ -25,6 +25,7 @@ Islandora Workbench is a tool to batch ingests content to Digital Library wbesit
 `cd isle-dc/islandora_workbench/input_data`</br>
 `nano LDL_config.yml`</br>
 ####  Workbench YAML fiel configuration for batch ingest:
+```
 task: create
 host: "https://islandora.traefik.me"
 username: admin
@@ -32,5 +33,6 @@ pasword: password
 input_csv: Presentation/Output.csv
 allow_adding_terms: True
 allow_missing_files: True
+```
 ***NOTE) The `input_csv` is the name of metadata that workbench will use it to ingest data. it should be located in the `input_data` directory. 
 IF you want the metadata to be in the another location, you must specify the location in `input_csv option.***
