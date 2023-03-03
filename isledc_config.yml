@@ -1,0 +1,7 @@
+task: create
+host: "https://islandora.traefik.me"
+username: admin
+pasword: password
+input_csv: Presentation/Output.csv
+allow_adding_terms: True
+allow_missing_files: True
