@@ -32,4 +32,5 @@ Islandora Workbench is a tool to batch ingests content to Digital Library wbesit
 		input_csv: Presentation/Output.csv
 		allow_adding_terms: True
 		allow_missing_files: True
-NOTE) input_csv is the name of metadata that workbench will use it to ingest data. it should be in the `input_data` directory. IF you wan the meta data to be in the other location you must specify the location in `input_csv option.
+***NOTE) The `input_csv` is the name of metadata that workbench will use it to ingest data. it should be located in the `input_data` directory. 
+IF you want the metadata to be in the another location, you must specify the location in `input_csv option.***
